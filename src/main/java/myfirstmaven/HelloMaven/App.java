@@ -1,23 +1,21 @@
 package myfirstmaven.HelloMaven;
 
-public class App 
+public class App {
+	public static void main(String[] args) {
 
-{
-   
- public static void main( String[] args )
-  
-  {
-       
- System.out.println( "Hello Divya!" );
-   
- }
+		System.out.println(getHelloDivya());
 
-	
-public int calculateSomething()
- {
+	}
 
-return 0;
-	
-}
+	public static String getHelloDivya() {
 
+		return "Hello Divya";
+
+	}
+
+	public static String getHelloDSC() {
+
+		return "Hello Divya Sri Chindam";
+
+	}
 }
