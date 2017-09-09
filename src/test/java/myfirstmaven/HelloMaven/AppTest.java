@@ -21,5 +21,11 @@ public class AppTest {
 
 		Assert.assertEquals(App.getHelloDSC(), "Hello Divya Sri Chindam");
 	}
+	
+	@Test
+	public void testPrintHelloName() {
+
+		Assert.assertEquals(App.getHelloName("Divya"), "Hello Divya");
+	}
 
 }

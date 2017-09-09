@@ -19,4 +19,10 @@ public class App {
 		return "Hello Divya Sri Chindam";
 
 	}
+	
+	public static String getHelloName(String name) {
+
+		return "Hello " + name;
+
+	}
 }
