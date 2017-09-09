@@ -22,6 +22,7 @@ public class App {
 	
 	public static String getHelloName(String name) {
 
+		name = name + "ivya"
 		return "Hello " + name;
 
 	}

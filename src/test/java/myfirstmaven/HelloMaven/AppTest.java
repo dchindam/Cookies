@@ -25,7 +25,7 @@ public class AppTest {
 	@Test
 	public void testPrintHelloName() {
 
-		Assert.assertEquals(App.getHelloName("Divya"), "Hello Divya");
+		Assert.assertEquals(App.getHelloName("D"), "Hello Divya");
 	}
 
 }
